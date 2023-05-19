@@ -1,0 +1,793 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.Blue {
+    position: absolute;
+    left: 1163px;
+top: 750px;
+}
+
+.Main {
+    box-sizing: border-box;
+    position: absolute;
+    width: 993px;
+    height: 1179px;
+    left: 302px;
+    top: 124px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 16px 0px 0px 16px;
+}
+
+.Sidebar {  
+    box-sizing: border-box;
+    top: 124px;
+    position: absolute;
+    width: 316px;
+    height: 1179px;
+    left: 1302px;   
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 0px 16px 16px 0px;
+}
+
+
+.Header {
+    padding: auto;
+    padding-left: 20px;
+}
+
+.right-btn p {
+    margin-right: 47px;
+  }
+
+.Header h1 {
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    position: absolute;
+width: 85px;
+height: 21px;
+left: 300px;
+top: 50px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.right-btn {
+    position: absolute;
+    left: 1092px;
+    top: 47px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.right-btn button {
+    width: 80px;
+    height: 40px;
+    background: rgba(237, 237, 237, 0.25);
+    border: 0.5px solid #9E9E9E;
+    border-radius: 4px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Search {
+    box-sizing: border-box;
+    position: absolute;
+    width: 365px;
+    height: 49px;
+    left: 336px;
+    top: 156px;
+    background: #FFFFFF;
+    border: 1px solid rgba(119, 119, 119, 0.5);
+    border-radius: 32px 0px 0px 32px;   
+}   
+
+.Search input {
+    color: #434343;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    width: 121px;
+    height: 13px;
+    left: calc(50% - 121px/2 - 521.5px);
+    top: calc(50% - 13px/2 - 467.5px);
+    background-color: transparent;
+    border: none;
+    padding-left: 50px;
+    padding-top: 19px
+} 
+
+.Search input:focus {
+    outline: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+.Search img {
+    position: absolute;
+    top: 15px;
+    opacity: 0.5;
+    border-radius: 12px;
+    left: 20px;
+}
+
+.city{
+    box-sizing: border-box;
+    position: absolute;
+    width: 240px;
+    height: 49px;
+    left: calc(50% - 240px/2 - 140px);
+    top: 156px;
+    background: #FFFFFF;
+    border: 1px solid rgba(119, 119, 119, 0.5);
+    border-radius: 0px 32px 32px 0px;
+}
+
+.city input{
+    color: #434343;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    width: 121px;
+    height: 13px;
+    left: calc(50% - 121px/2 - 521.5px);
+    top: calc(50% - 13px/2 - 467.5px);
+    background-color: transparent;
+    border: none;
+    padding-left: 50px;
+    padding-top: 19px
+}
+
+.city img {
+    position: absolute;
+    top: 15px;
+    opacity: 0.5;
+    border-radius: 12px;
+    left: 20px;
+}
+
+.city input:focus {
+    outline: none;
+}
+
+.find button {
+    position: absolute;
+    width: 290px;
+    height: 49px;
+    left: 970px;
+    top: 156px;
+    background: #4A72FF;
+    border-radius: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-left: 65px;
+}
+
+.example{
+opacity: 0.4;
+}
+
+.example h1{
+    position: absolute;
+    width: 81px;
+    height: 17px;
+    left: 336px;
+    top: 214px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #000000; 
+}
+
+.example p{ 
+position: absolute;
+width: 174px;
+height: 17px;
+left: 420px;
+top: 214px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+color: #000000;
+cursor: pointer;
+}
+
+.works:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+.work h1{
+    position: absolute;
+    width: 59px;
+    height: 12px;
+    left: 335px;
+    top: 269px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #000000;
+    
+    opacity: 0.4;
+}
+
+.work p {
+    position: absolute;
+width: 119px;
+height: 10px;
+left: 410px;
+top: 273px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+opacity: 0.4;
+}
+
+.works {
+    box-sizing: border-box;
+position: absolute;
+width: 925.45px;
+height: 250px;
+left: 335.78px;
+background: #FFFFFF;
+border: 1px solid #777777;
+border-radius: 16px;
+}
+
+
+.works h1{
+    position: absolute;
+
+    height: 24px;
+    left: 30px;
+    top: 26px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    
+}
+.works h2{
+    position: absolute;
+width: 144px;
+height: 13px;
+left: 30px;
+top: 70px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+
+.works h3{
+    
+position: absolute;
+width: 47px;
+height: 13px;
+left: 220px;
+top: 70px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+.works .Ua{
+    position: absolute;
+width: 16px;
+height: 13px;
+left: 185px;
+top: 70px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+.works .salary{
+    position: absolute;
+    width: 155px;
+    height: 13px;
+    left: 30px;
+    top: 100px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    
+    color: rgba(0, 0, 0, 0.5);  
+}
+.works .Opis{
+    position: absolute;
+width: 102px;
+height: 12px;
+left: 210px;
+top: 100px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.5);
+
+}
+.works .type{
+    position: absolute;
+width: 105px;
+height: 12px;
+left: 330px;
+top: 100px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.5);
+}
+.works .Years{
+    position: absolute;
+width: 299px;
+height: 13px;
+left: 30px;
+top: 135px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.5);
+}
+.works .Baka{
+    position: absolute;
+width: 218px;
+height: 13px;
+left: 30px;
+top: 165px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.6);
+}
+.works .save{
+    position: absolute;
+width: 14px;
+height: 21px;
+left: 30px;
+top: 213px;
+opacity: 1;
+}
+.works .Save{
+    position: absolute;
+width: 71px;
+height: 13px;
+left: 50px;
+top: 216px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.5);
+}
+
+.Sidebar h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    color: rgba(67, 67, 67, 0.5);
+}
+
+.Sidebar h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+position: relative ;
+    left: 20px;
+top: 40px;
+color: #434343;
+
+}
+
+.dropbtn {
+    width: 260px;
+    background: #FFFFFF;
+    border: 1px solid rgba(158, 158, 158, 0.5);
+    border-radius: 0px 6px 6px 0px;
+    color: #434343;  
+    
+opacity: 0.5;   
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #FFFFFF;}
+
+.Work {
+
+  }
+  
+  .container1 {
+    position: absolute;
+    top: 309px;
+  }
+  
+  .container2 {
+    position: absolute;
+    top: 584px;
+  }
+
+  .container3 {
+    position: absolute;
+    top: 859px;
+  }
+
+  .dropbtn {
+    position: relative;
+    top: 60px;
+    left: 6px;
+  }
+
+  .dropbtn:not(:last-child) {
+    
+    margin-bottom: 28px;
+  }
+
+  .left-arrow {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1500px;
+    top: 1169px;
+  }
+
+  .salary1 {
+    position: relative;
+    top: 25px;
+  }
+
+  .Sidebar img{
+    position: absolute;
+width: 25px;
+height: 25px;
+left: 270px;
+top: 75px;
+  }
+
+  .salary1 img {
+    position: relative;
+    left: 80px;
+    top: -6px;
+    width: 25px;
+  }
+
+  .city1 img{
+    position: absolute;
+  }
+
+  .salary1 .dropdown{
+   margin-top: 0px;
+  }
+
+  .salary1 {
+    display: flex;
+    position: relative;
+
+  }
+
+  .salary1 .dropbtn {
+    width: 125px;
+    left: -50px;
+    top: 75px;
+  }
+
+  .salary1 img{
+    position: relative;
+    left: 20px;
+    top: 10px;
+  }
+  
+  .right-dropdown {
+    margin-left: auto;
+    
+  }
+
+  .dropdown h3{
+    position: absolute;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+
+color: #434343;
+top: 125px;
+left: 23px;
+  }
+
+  .type1 {
+    position: relative;
+    top: 20px;
+  }
+
+  .type1 h2 {
+    position: relative;  
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+
+color: #434343;
+top: 80px;
+
+  }
+
+  .type1 p {
+    position: relative;
+    width: 89px;
+height: 14px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+
+color: #434343;
+top: 90px;
+left: 50px;
+margin-top: 20px;
+
+  }
+  
+  .approach {
+    position: relative;
+    top:140px;
+    left: 0;
+    margin-top: 20px;
+  }
+
+
+  .approach h2 {
+    position: relative;
+    top: -10px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+
+color: #434343;
+
+  }
+
+  .approach p {
+    position: relative;
+    width: 198px;
+height: 14px;
+left: 50px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+
+color: #434343;
+margin-top: 20px;
+  }
+
+  .left_arrow {
+    position: relative;
+    left: 530px;
+  }
+
+  .Footer {
+    display: flex;
+  }
+
+.right_arrow {
+    position: relative;
+    left: 1068px;
+  }
+
+  .Footer .numbers {
+    margin-left: auto;
+    position: absolute;
+height: 14px;
+left: 724px;
+top: 1255px;
+font-size: 12px;
+line-height: 15px;
+margin: 0px;
+  }
+
+
+  
+  .number-row {
+    display: flex;
+    position: relative;
+    display: flex;
+    left: -90px;
+    top: -10px;
+    align-items: center;
+  }
+  
+  .number-row p {
+    font-size: 25px;
+    position: relative;
+    margin: 0 5px;
+    background: #FFFFFF;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 15px;
+/* identical to box height */
+margin-left: 30px;
+
+color: #000000;
+
+background: #FFFFFF;
+
+width: 30px;
+height: 30px;
+text-align: center;
+display: flex;
+align-items: center;
+
+  }
